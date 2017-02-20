@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_xzitem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sby.lifehodgepodge.activity.XZItemActivity">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <ImageView
+                    android:gravity="top"
+                    android:scaleType="fitXY"
+                    android:id="@+id/xz_actitem_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp" />
+
+                <ImageView
+                    android:background="@color/text_Grey"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+
+
+            <include layout="@layout/xz_viewpager_item" />
+
+            <LinearLayout
+                android:id="@+id/xz_actitem_linear"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/xz_item_viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="450dp">
+                    </android.support.v4.view.ViewPager>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/qiehuan"
+        android:id="@+id/xz_actitem_floatbutton"
+        app:backgroundTint="@color/text_Grey"
+        android:layout_margin="30dp"
+        android:layout_gravity="bottom|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

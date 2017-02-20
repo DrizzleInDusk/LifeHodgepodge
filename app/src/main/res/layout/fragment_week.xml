@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/xz_frag3_time"
+        android:textSize="20sp"
+        android:text="time"
+        android:textColor="@color/text_Grey"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/xz_frag3_health"
+        android:paddingLeft="20dp"
+        android:text="健康指数"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/xz_frag3_job"
+        android:paddingLeft="20dp"
+        android:text="求职指数"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/xz_frag3_love"
+        android:paddingLeft="20dp"
+        android:text="恋爱指数"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/xz_frag3_money"
+        android:paddingLeft="20dp"
+        android:text="财运指数"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/xz_frag3_work"
+        android:paddingLeft="20dp"
+        android:text="工作指数"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
